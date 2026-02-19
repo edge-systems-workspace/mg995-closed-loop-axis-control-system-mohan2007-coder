@@ -13,11 +13,16 @@ Servo myservo;
 int echopin=10;
 //initilise the trigpin and echopin
 int trigpin=9;
+//initilise the trigpin and echopin
 void setup() {
     pinMode(trigpin,OUTPUT);
+    //pinMode the trigpin as output
     pinMode(echopin,INPUT);
+    //pinMode the echopin as input
     Serial.begin(9600);
+    //start the serial communication
     myservo.attach(3);
+    //attach the servo to pin 3
 
 
 }
