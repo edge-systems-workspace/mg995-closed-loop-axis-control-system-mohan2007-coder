@@ -47,6 +47,7 @@ void loop() {
         myservo.write(0);
 
     }
+    //calculate the distance based on the duration of the echo pulse and convert it to centimeters
     Serial.print("Distance");
     Serial.print(distance);
     Serial.println("cm");
