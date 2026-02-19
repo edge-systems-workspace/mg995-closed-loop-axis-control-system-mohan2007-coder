@@ -37,6 +37,7 @@ void loop() {
     digitalWrite(trigpin,HIGH);
     delayMicroseconds(10);
     digitalWrite(trigpin,0);
+    //send a 10 microsecond pulse to the trigpin to trigger the ultrasonic sensor
     long duration=pulseIn(echopin,1);
     long distance=(duration*0.034)/2;
     if(distance<15){
