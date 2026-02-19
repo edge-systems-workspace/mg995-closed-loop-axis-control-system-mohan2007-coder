@@ -20,7 +20,7 @@ void setup() {
     pinMode(echopin,INPUT);
     //pinMode the echopin as inpuT
     Serial.begin(9600);
-    //start the serial communication
+    //start the serial communication at 9600 baud rate
     myservo.attach(3);
     //attach the servo to pin 3
 
