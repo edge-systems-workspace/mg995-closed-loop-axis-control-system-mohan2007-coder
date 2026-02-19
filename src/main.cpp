@@ -18,7 +18,7 @@ void setup() {
     pinMode(trigpin,OUTPUT);
     //pinMode the trigpin as output
     pinMode(echopin,INPUT);
-    //pinMode the echopin as input
+    //pinMode the echopin as inpuT
     Serial.begin(9600);
     //start the serial communication
     myservo.attach(3);
