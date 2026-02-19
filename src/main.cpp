@@ -52,6 +52,5 @@ void loop() {
     Serial.print(distance);
     Serial.println("cm");
     delay(500);
-    //put your main code here, to run repeatedly:
 
 }
