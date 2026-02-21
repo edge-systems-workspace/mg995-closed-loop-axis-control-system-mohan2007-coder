@@ -44,6 +44,7 @@ void loop() {
         myservo.write(90);
     }
     else{
+
         myservo.write(0);
 
     }
